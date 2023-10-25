@@ -1,0 +1,3 @@
+Developing locally 
+Create local directory and initialize to a git repository:
+git init -b main (master is the default branch)
