@@ -1,3 +1,25 @@
 Developing locally 
 Create local directory and initialize to a git repository:
 git init -b main (master is the default branch)
+
+Add to the stage area
+Add git files to the staging area
+git add file.txt
+
+Add a commit
+git commit -m “adding a note”
+
+Observe a repository log
+git log
+
+Deleting a branch
+Delete a remote branch and the associated remote-tracking branch
+git push <shortname> -d <branch_name>
+example: git push origin -d feature
+
+Delete a local branch
+git branch -d <branch__name>
+example: git branch -d feature
+
+Switch to another branch
+git switch main
