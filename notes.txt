@@ -10,6 +10,7 @@ Add a commit
 git commit -m “adding a note”
 
 Observe a repository log
+Locally, observe the commit track, where current pointer, and which branch
 git log
 
 Deleting a branch
@@ -23,3 +24,8 @@ example: git branch -d feature
 
 Switch to another branch
 git switch main
+
+Remote Tracking Branches represent the state of remote branches
+
+git branch -vv
+List the local branches and their upstream branches, if they have any.
