@@ -37,3 +37,6 @@ Keep up with remote-tracking
 git push
 git status
 git log
+
+Deleting Branches
+git push <shortname> -d <branch_name>
