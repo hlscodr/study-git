@@ -28,4 +28,12 @@ git switch main
 Remote Tracking Branches represent the state of remote branches
 
 git branch -vv
+Used to see if upstream branches are defined (-vv stands for very verbose)
+This can tell if your local branch is ahead or behind the main/origin upstream branch
 List the local branches and their upstream branches, if they have any.
+
+
+Keep up with remote-tracking
+git push
+git status
+git log
