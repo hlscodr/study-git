@@ -45,3 +45,19 @@ git log
 
 Deleting Branches
 git push <shortname> -d <branch_name>
+
+
+
+
+
+
+Chapter 9 Notes
+
+Three-Way Merges
+Merging involves integrating the changes made in one branch, called the source branch, into another branch, called the target branch.
+
+Two Types of Merges: fast-forward merges and three-way merges.
+
+Defining Upstream Branches
+git branch -u <shortname>/<branch_name>
+Define an upstream branch for the current local branch
